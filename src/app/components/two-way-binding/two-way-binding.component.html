@@ -1,0 +1,22 @@
+<div class="class">
+    <h1>Aula 15 Two way data binding no Angular</h1>
+    <h1>Components: two-way-binding</h1>
+
+    <form>
+        <input type="text" [(ngModel)]="name" name="name" placeholder="Digite o seu nome">
+        <input style="margin-left: 20px;" type="submit" value="Enviar">
+    </form>
+    <div *ngIf="name !== '' ">
+        <p>O nome é: {{name}}</p>
+    </div><br>
+
+    <form>
+    <input type="text" [(ngModel)]="nome" name="nome" placeholder="Digite o nome do animal">
+    <input style="margin-left: 20px;" type="submit" value="Enviar">
+    </form>
+
+    <div *ngIf="nome !== '' ">
+    <p>O nome do animal é: {{nome}}</p>
+    </div>
+
+    </div>
