@@ -14,6 +14,7 @@ import { ListRenderComponent } from './components/list-render/list-render.compon
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { FormsModule } from '@angular/forms';
+import { ServicesdoAngularComponent } from './components/servicesdo-angular/servicesdo-angular.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { FormsModule } from '@angular/forms';
     ChargeNumberComponent,
     ListRenderComponent,
     PipesComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    ServicesdoAngularComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Animal } from 'src/app/Animal';
+import { ListService } from 'src/app/services/list.service';
 
 @Component({
   selector: 'app-list-render',
@@ -7,6 +8,11 @@ import { Animal } from 'src/app/Animal';
   styleUrls: ['./list-render.component.css']
 })
 export class ListRenderComponent {
+
+  constructor(private listService: ListService){
+
+  }
+
   animalDetalis=""
   listaDetalis=""
 
@@ -16,7 +22,6 @@ export class ListRenderComponent {
     {id:1003, nome:"Frida", tipo:"Cachorro" , idade:5, foto:"https://i.pinimg.com/originals/24/b6/48/24b648325f93234d682df317553fe743.png"},
     {id:1004, nome:"Bob", tipo:"Horse",idade:1, foto:"https://i.pinimg.com/originals/24/b6/48/24b648325f93234d682df317553fe743.png"}
   ]
- 
 
   mostraIdade(lista:Animal){
     this.animalDetalis= "O pet " + lista.nome + " tem " + lista.idade + " anos";
@@ -24,6 +29,11 @@ export class ListRenderComponent {
 
   mostrarNome(lista:Animal){
     this.listaDetalis= lista.nome
+  }
+
+  removeAnimal(lista:Animal){
+    console.log('Removendo animais...')
+    this.animais = this.listService.remove(this.animais, lista);
   }
 
 }
