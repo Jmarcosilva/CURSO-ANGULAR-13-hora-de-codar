@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Animal } from 'src/app/Animal';
+import { Animal } from 'src/app/interfaces/Animal';
 import { ListService } from 'src/app/services/list.service';
 
 @Component({

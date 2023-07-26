@@ -11,4 +11,6 @@ export class PipesComponent {
 
   today = new Date();
 
+  teste="testandoo"
+
 }
