@@ -14,7 +14,7 @@ import { ListRenderComponent } from './components/list-render/list-render.compon
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { FormsModule } from '@angular/forms';
-import { ServicesdoAngularComponent } from './components/servicesdo-angular/servicesdo-angular.component';
+import { ServicesdoAngularComponent } from './components/services-do-angular/servicesdo-angular.component';
 
 
 @NgModule({
@@ -30,7 +30,7 @@ import { ServicesdoAngularComponent } from './components/servicesdo-angular/serv
     ListRenderComponent,
     PipesComponent,
     TwoWayBindingComponent,
-    ServicesdoAngularComponent
+    ServicesdoAngularComponent,
   ],
   imports: [
     BrowserModule,

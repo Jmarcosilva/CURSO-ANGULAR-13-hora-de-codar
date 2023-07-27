@@ -9,6 +9,8 @@ export class TwoWayBindingComponent {
 
   name: string = "";
   nome: string = "";
+  nome2: string = "";
+  nome3 = ""
   
 
 }

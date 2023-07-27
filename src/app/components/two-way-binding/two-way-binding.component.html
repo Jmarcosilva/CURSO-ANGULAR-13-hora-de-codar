@@ -13,10 +13,25 @@
     <form>
     <input type="text" [(ngModel)]="nome" name="nome" placeholder="Digite o nome do animal">
     <input style="margin-left: 20px;" type="submit" value="Enviar">
-    </form>
+    </form><br>
 
     <div *ngIf="nome !== '' ">
     <p>O nome do animal é: {{nome}}</p>
     </div>
 
+
+    <form>
+        <input [(ngModel)]="nome2" type="text" name="nome" placeholder="Digite seu nome">
+        <button style="margin-left: 20px;" type="button">Enviar</button>
+    </form>
+    <p>{{nome2}}</p>
+
+
+    <form>
+        <input [(ngModel)]="nome3" type="text" name="nome" placeholder="Digite seu nome">
+        <button style="margin-left: 20px;" type="button">Enviar</button>
+    </form>
+    <div *ngIf="nome3 !=='' ">
+        <p>{{"O nome do animal é: " + nome3}}</p>
+    </div>
     </div>
