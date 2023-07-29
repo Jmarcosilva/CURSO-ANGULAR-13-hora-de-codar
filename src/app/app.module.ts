@@ -15,6 +15,7 @@ import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { FormsModule } from '@angular/forms';
 import { ServicesdoAngularComponent } from './components/services-do-angular/servicesdo-angular.component';
+import { RouterComponent } from './components/router/router.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { ServicesdoAngularComponent } from './components/services-do-angular/ser
     PipesComponent,
     TwoWayBindingComponent,
     ServicesdoAngularComponent,
+    RouterComponent,
   ],
   imports: [
     BrowserModule,

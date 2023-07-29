@@ -1,3 +1,4 @@
+
 <div class="class">
     <h1>Aula 01 Introdução</h1>
 </div>
@@ -27,4 +28,50 @@
 <app-pipes></app-pipes>
 <app-two-way-binding></app-two-way-binding>
 <app-servicesdo-angular></app-servicesdo-angular>
+<app-router></app-router>
 
+
+<!---------------------------------------------->
+<p>header</p>
+
+
+
+<nav>
+
+    <nav class="navbar bg-primary navbar-expand-lg ">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" routerLink="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/list">List</a>
+              </li>
+          
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/router">Aula 17</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+<a routerLink="/">Home</a><br>
+<a routerLink ="/list">Lista</a><br>
+<a routerLink="/router">Aula 17</a>
+</nav>
+
+
+
+<h1>Hello world Angular</h1>
+<router-outlet></router-outlet>
+<p>footer</p>
+<div class="class">
+<h1 style="background-color: blueviolet;">Aula 17 termina aqui------------------------------------------------------</h1>
+</div>
