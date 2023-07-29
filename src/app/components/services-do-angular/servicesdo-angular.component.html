@@ -10,6 +10,7 @@
   <body>
     <div class="class">
         <h1>Aula 16  Services do Angular </h1>
+        <h1>Delete de dados</h1>
         <h1>components: servicesdo-angular</h1>
         <h1>services: list </h1>
 
@@ -31,6 +32,7 @@
                 <td>{{cidade.numeroHabitantes}}</td>
                 <td><img style="width: 150px;" src="{{cidade.foto}}" alt=""></td>
                 <button type="button" class="btn btn-warning" (click)="mostrarId(cidade)">Mostra imagem</button>
+                <button type="button" class="btn btn-warning" (click)="removeCidade(cidade)" >Excluir cidade</button>
               </tr> 
              <img style="width: 1000px;" src="{{idDetalhe}}" alt="">
             </tbody>

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Cidades } from 'src/app/interfaces/Cidades';
+import { ServicesCidadesService } from 'src/app/services/serviceCidades/services-cidades.service';
 
 
 
@@ -12,6 +13,8 @@ import { Cidades } from 'src/app/interfaces/Cidades';
 export class ServicesdoAngularComponent {
 
   idDetalhe="";
+
+  constructor(private serviceCidades: ServicesCidadesService){}
   
 
   cidades:Cidades[]= [
@@ -24,6 +27,11 @@ export class ServicesdoAngularComponent {
 
   mostrarId(cidade:Cidades){
     this.idDetalhe="" + cidade.foto
+  }
+
+  removeCidade(cidade:Cidades){
+    console.log("removendo....")
+    this.cidades = this.serviceCidades.remove(this.cidades, cidade)
   }
 
 }
