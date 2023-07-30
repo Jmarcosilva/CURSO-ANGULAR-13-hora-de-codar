@@ -11,4 +11,39 @@
     </p>
     <h1>Assista a aula</h1>
     <h1>Teste</h1>
+
+
+    <table>
+        <th>Nome</th>
+        <th>Tipo</th>
+        <tr *ngFor="let lista of animais2">
+            <td>{{lista.nome}}</td>
+            <td>{{lista.tipo}}</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Foto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let lista of animais2">
+            <td>{{lista.id}}</td>
+            <td>{{lista.nome}}</td>
+            <td>{{lista.tipo}}</td>
+            <td>{{lista.idade}}</td>
+            <td> <img style="width: 100px;" src="{{lista.foto}}" alt=""></td>
+          </tr>
+        </tbody>
+      </table>
+
+
 </div>
