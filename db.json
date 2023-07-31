@@ -5,5 +5,12 @@
       {"id":1003, "nome":"Frida", "tipo":"Cachorro", "idade":11, "foto":"https://i.pinimg.com/originals/24/b6/48/24b648325f93234d682df317553fe743.png"},
       {"id":1004, "nome":"Bob", "tipo":"Cavalo", "idade":2, "foto":"https://i.pinimg.com/originals/24/b6/48/24b648325f93234d682df317553fe743.png"},
       {"id":1005, "nome":"Paco", "tipo":"Pássaro", "idade":1, "foto":"https://i.pinimg.com/originals/24/b6/48/24b648325f93234d682df317553fe743.png"}
-    ]
+    ],
+
+  "produtosAmericanas":[
+    {"id":2001, "nomeProduto":"Prato de louça", "preco":"20.00", "foto":"https://images-americanas.b2w.io/produtos/01/00/img/202828/6/202828691_1GG.jpg"},
+    {"id":2002, "nomeProduto":"Copo térmico", "preco":"10.00", "foto":"https://779028l.ha.azioncdn.net/img/2022/11/produto/14574/copo-termico-cerveja-c-tampa-stanley-matte-black.jpg?ims=fit-in/490x490/filters:fill(white)"},
+    {"id":2003, "nomeProduto":"Bandeja acrílico", "preco":"70.00", "foto":"https://www.acrilmarco.com.br/wp-content/uploads/2021/06/image34.png"},
+    {"id":2004, "nomeProduto":"Panela de pressão", "preco":"90.00", "foto":"https://m.media-amazon.com/images/I/41xOht2rckL._AC_UF894,1000_QL80_.jpg"}
+  ]
 }
