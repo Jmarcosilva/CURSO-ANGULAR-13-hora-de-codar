@@ -19,7 +19,7 @@ import { FormsModule } from '@angular/forms';
 import { ServicesdoAngularComponent } from './components/services-do-angular/servicesdo-angular.component';
 import { RouterComponent } from './components/router/router.component';
 import { Aula18Component } from './components/aula18/aula18.component';
-import { Aula182Component } from './components/aula18.2/aula18.2.component';
+
 
 
 @NgModule({
@@ -38,7 +38,6 @@ import { Aula182Component } from './components/aula18.2/aula18.2.component';
     ServicesdoAngularComponent,
     RouterComponent,
     Aula18Component,
-    Aula182Component
   ],
   imports: [
     BrowserModule,
