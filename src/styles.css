@@ -18,3 +18,8 @@ body{
         margin-bottom: 1em;
     }
 }
+
+.menuGeral{
+    position: fixed;
+    width: 100%;
+}

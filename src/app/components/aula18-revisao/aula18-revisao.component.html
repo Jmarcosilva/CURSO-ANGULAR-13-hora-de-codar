@@ -1,0 +1,19 @@
+<div class="class">
+    <div class="table">
+    <table>
+        <tr>
+            <th >Id</th>
+            <th >Nome</th>
+            <th >Preço</th>
+            <th >Foto</th>
+          </tr>
+
+          <tr *ngFor="let produto of produtosAmericanas">
+            <td>{{produto.id}}</td>
+            <td>{{produto.nome}}</td>
+            <td>{{produto.preco}}</td>
+            <td><img width="100px" src="{{produto.foto}}" alt=""></td>
+          </tr>
+    </table>
+    </div>
+</div>

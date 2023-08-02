@@ -19,6 +19,7 @@ import { FormsModule } from '@angular/forms';
 import { ServicesdoAngularComponent } from './components/services-do-angular/servicesdo-angular.component';
 import { RouterComponent } from './components/router/router.component';
 import { Aula18Component } from './components/aula18/aula18.component';
+import { Aula18RevisaoComponent } from './components/aula18-revisao/aula18-revisao.component';
 
 
 
@@ -38,6 +39,7 @@ import { Aula18Component } from './components/aula18/aula18.component';
     ServicesdoAngularComponent,
     RouterComponent,
     Aula18Component,
+    Aula18RevisaoComponent,
   ],
   imports: [
     BrowserModule,
