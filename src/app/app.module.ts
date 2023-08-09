@@ -20,7 +20,15 @@ import { ServicesdoAngularComponent } from './components/services-do-angular/ser
 import { RouterComponent } from './components/aula17-router/router.component';
 import { Aula18Component } from './components/aula18/aula18.component';
 import { Aula18RevisaoComponent } from './components/aula18-revisao/aula18-revisao.component';
-import { ItemDetailComponent } from './components/aula19-item-detail/item-detail.component';
+import { Aula19ItemDetailComponent } from './components/aula19-item-detail/aula19-item-detail.component';
+import { Aula01IntroducaoComponent } from './components/aula01-introducao/aula01-introducao.component';
+import { Aula02InstalandoAngularComponent } from './components/aula02-instalando-angular/aula02-instalando-angular.component';
+import { Aula03EstruturaAngularComponent } from './components/aula03-estrutura-angular/aula03-estrutura-angular.component';
+import { Aula06CssComponent } from './components/aula06-css/aula06-css.component';
+import { Aula04CriandoComponentesComponent } from './components/aula04-criando-componentes/aula04-criando-componentes.component';
+import { Aula05DadosNoTemplateComponent } from './components/aula05-dados-no-template/aula05-dados-no-template.component';
+
+
 
 
 
@@ -42,7 +50,14 @@ import { ItemDetailComponent } from './components/aula19-item-detail/item-detail
     RouterComponent,
     Aula18Component,
     Aula18RevisaoComponent,
-    ItemDetailComponent,
+    Aula19ItemDetailComponent,
+    Aula01IntroducaoComponent,
+    Aula02InstalandoAngularComponent,
+    Aula03EstruturaAngularComponent,
+    Aula06CssComponent,
+    Aula04CriandoComponentesComponent,
+    Aula05DadosNoTemplateComponent,
+   
   ],
   imports: [
     BrowserModule,
