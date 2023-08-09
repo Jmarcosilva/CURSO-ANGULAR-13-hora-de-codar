@@ -17,7 +17,7 @@
         <th>Nome</th>
         <th>Tipo</th>
         <tr *ngFor="let lista of animais2">
-            <td>{{lista.nome}}</td>
+            <td><a routerLink="/aula19list/{{ lista.id }}">{{lista.nome}}</a></td>
             <td>{{lista.tipo}}</td>
         </tr>
     </table>

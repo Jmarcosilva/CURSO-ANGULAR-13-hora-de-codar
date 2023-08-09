@@ -12,7 +12,7 @@ import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventosComponent } from './components/eventos/eventos.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChargeNumberComponent } from './components/charge-number/charge-number.component';
-import { ListRenderComponent } from './components/list-render/list-render.component';
+import { ListRenderComponent } from './components/aula12-list-render/list-render.component';
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { FormsModule } from '@angular/forms';
@@ -27,6 +27,7 @@ import { Aula03EstruturaAngularComponent } from './components/aula03-estrutura-a
 import { Aula06CssComponent } from './components/aula06-css/aula06-css.component';
 import { Aula04CriandoComponentesComponent } from './components/aula04-criando-componentes/aula04-criando-componentes.component';
 import { Aula05DadosNoTemplateComponent } from './components/aula05-dados-no-template/aula05-dados-no-template.component';
+import { Aula13InterfacesComponent } from './components/aula13-interfaces/aula13-interfaces.component';
 
 
 
@@ -57,6 +58,7 @@ import { Aula05DadosNoTemplateComponent } from './components/aula05-dados-no-tem
     Aula06CssComponent,
     Aula04CriandoComponentesComponent,
     Aula05DadosNoTemplateComponent,
+    Aula13InterfacesComponent,
    
   ],
   imports: [
