@@ -36,11 +36,35 @@
         </thead>
         <tbody>
           <tr *ngFor="let lista of animais2">
-            <td>{{lista.id}}</td>
+            <td><a href="/aula19list/{{lista.id}}">{{lista.id}}</a></td>
             <td>{{lista.nome}}</td>
             <td>{{lista.tipo}}</td>
             <td>{{lista.idade}}</td>
             <td> <img style="width: 100px;" src="{{lista.foto}}" alt=""></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br>
+
+      <hr>
+      <br>
+
+      <h1>Lista 02</h1>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Idade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let animal2 of animais2">
+            <td><a href="/list/{{animal2.id}}">{{animal2.nome}}</a></td>
+            <td>{{animal2.tipo}}</td>
+            <td>{{animal2.idade}}</td>
           </tr>
         </tbody>
       </table>

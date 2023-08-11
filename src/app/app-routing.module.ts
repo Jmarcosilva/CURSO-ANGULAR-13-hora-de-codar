@@ -1,6 +1,6 @@
 import { Component, NgModule } from '@angular/core';
 import { Router, RouterModule, Routes } from '@angular/router';
-import { FirstComponentComponent } from './components/first-component/first-component.component';
+import { FirstComponentComponent } from './components/aula00-home/first-component.component';
 import { ListRenderComponent } from './components/aula12-list-render/list-render.component';
 import { RouterComponent } from './components/aula17-router/router.component';
 import { AppComponent } from './app.component';
@@ -13,8 +13,10 @@ import { Aula06CssComponent } from './components/aula06-css/aula06-css.component
 import { Aula04CriandoComponentesComponent } from './components/aula04-criando-componentes/aula04-criando-componentes.component';
 import { Aula05DadosNoTemplateComponent } from './components/aula05-dados-no-template/aula05-dados-no-template.component';
 import { Aula13InterfacesComponent } from './components/aula13-interfaces/aula13-interfaces.component';
+import { Aula19ItemDetalheComponent } from './components/aula19-item-detalhe/aula19-item-detalhe.component';
 
 const routes: Routes = [
+  {path:"home", component: FirstComponentComponent},
   {path:"aula01", component:Aula01IntroducaoComponent},
   {path:"aula02", component:Aula02InstalandoAngularComponent},
   {path:"aula03", component:Aula03EstruturaAngularComponent},
@@ -24,10 +26,10 @@ const routes: Routes = [
   {path:"aula12", component:ListRenderComponent},
   {path:"aula13", component:Aula13InterfacesComponent},
   {path:"aula18", component:Aula18Component},
-  {path:"home", component: FirstComponentComponent},
   {path:"list", component:ListRenderComponent},
   {path:"router", component:RouterComponent},
-  {path:"aula19list/:id", component:Aula19ItemDetailComponent}
+  {path:"aula19list/:id", component:Aula19ItemDetailComponent},
+  {path:"list/:id", component:Aula19ItemDetalheComponent}
   
 ];
 

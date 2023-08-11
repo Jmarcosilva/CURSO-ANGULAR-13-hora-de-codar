@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import {HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { FirstComponentComponent } from './components/first-component/first-component.component';
+import { FirstComponentComponent } from './components/aula00-home/first-component.component';
 import { ParentDateComponent } from './components/parent-date/parent-date.component';
 import { DirectivesComponent } from './components/directives/directives.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
@@ -28,6 +28,7 @@ import { Aula06CssComponent } from './components/aula06-css/aula06-css.component
 import { Aula04CriandoComponentesComponent } from './components/aula04-criando-componentes/aula04-criando-componentes.component';
 import { Aula05DadosNoTemplateComponent } from './components/aula05-dados-no-template/aula05-dados-no-template.component';
 import { Aula13InterfacesComponent } from './components/aula13-interfaces/aula13-interfaces.component';
+import { Aula19ItemDetalheComponent } from './components/aula19-item-detalhe/aula19-item-detalhe.component';
 
 
 
@@ -59,6 +60,7 @@ import { Aula13InterfacesComponent } from './components/aula13-interfaces/aula13
     Aula04CriandoComponentesComponent,
     Aula05DadosNoTemplateComponent,
     Aula13InterfacesComponent,
+    Aula19ItemDetalheComponent,
    
   ],
   imports: [
